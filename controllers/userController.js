@@ -4,7 +4,6 @@ const config = require('../config/config')
 const randomstirng = require('randomstring')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const path = require('path')
 
 //Bcypt
 
