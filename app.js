@@ -12,7 +12,6 @@ const app = express()
 // app.engine('handlebars', exphbs());
 // app.engine('handlebars', exphbss.create());
 // app.set('view engine', 'handlebars');
-console.log(__dirname+"/views/html")
 
 app.set('view engine', 'ejs');
 app.use('/assets', express.static(path.join(__dirname, 'views/assets')));
